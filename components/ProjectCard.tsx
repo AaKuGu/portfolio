@@ -61,14 +61,14 @@ const ProjectCard: FunctionComponent<{
               </motion.div>
 
               <motion.div
-                className="big_box_top_buttons l_big_box_left_buttons mt-3 flex justify-center text-md gap-4 py-5 tracking-wider"
+                className="big_box_top_buttons l_big_box_left_buttons mt-3 sm:flex sm:flex-row flex flex-col justify-center sm:text-md text-base gap-4 py-5 tracking-wider px-4"
                 variants={fadeInDown}
                 initial="initial"
                 animate="animate"
               >
                 <a
                   href=""
-                  className="flex justify-center items-center gap-1 bg-gray-600 px-3 py-1 rounded-md"
+                  className="flex justify-center items-center gap-1 bg-gray-600 px-2 py-2 rounded-md"
                 >
                   <AiFillGithub />
                   <span>Github</span>
@@ -83,9 +83,9 @@ const ProjectCard: FunctionComponent<{
               </motion.div>
             </div>
 
-            <div className="big_box_down l_big_box_right mt-5 flex-col items-center justify-center lg:ml-5">
+            <div className="big_box_down l_big_box_right mt-5 flex-col items-center justify-center lg:ml-5 ">
               <motion.span
-                className="flex justify-center text-3xl font-rubik tracking-wider lg:justify-start "
+                className="flex justify-center md:text-3xl text-xl font-rubik tracking-wider lg:justify-start "
                 variants={fadeInUp}
                 initial="initial"
                 animate="animate"
@@ -93,7 +93,7 @@ const ProjectCard: FunctionComponent<{
                 {name}
               </motion.span>
               <motion.span
-                className="flex justify-center mt-3 lg:justify-start "
+                className="flex justify-center md:mt-3  lg:justify-start mt-2"
                 variants={fadeInUp}
                 initial="initial"
                 animate="animate"
@@ -101,7 +101,7 @@ const ProjectCard: FunctionComponent<{
                 {description}
               </motion.span>
 
-              <div className="flex justify-center gap-5 mt-10 lg:mt-16 text-lg mb-5 lg:text-md ">
+              <div className="flex justify-center gap-3 mt-10 lg:mt-16 text-[10px] md:text-lg mb-5 lg:text-md ">
                 {key_techs.map((techs) => (
                   <motion.div
                     className="flex bg-gray-600 px-3 rounded-md py-1 lg:px-2 lg:py-0"

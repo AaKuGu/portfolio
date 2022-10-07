@@ -67,16 +67,19 @@ import React, { FunctionComponent, useEffect, useState } from "react";
 import Link from "../node_modules/next/link";
 import { useRouter } from "../node_modules/next/router";
 
-const Navlink:FunctionComponent<{
-    name : string,
-    route : string,
-    isActive : string,
-}> = ({name,route,isActive}) => {
+const Navlink: FunctionComponent<{
+  name: string;
+  route: string;
+  isActive: string;
+  setIsActive: Function;
+}> = ({ name, route, isActive, setIsActive }) => {
   return (
     <>
       {name !== isActive ? (
         <Link href={route}>
-          <a>{name}</a>
+          <a onClick={() => setIsActive(name)}>
+            <span>{name}</span>
+          </a>
         </Link>
       ) : null}
     </>
@@ -95,12 +98,27 @@ const Navbar = () => {
 
   return (
     <div className="main ">
-      <div className="text-green text-2xl px-2 py-3 font-bold flex ">
+      <div className="text-green sm:text-xl text-md md:text-2xl px-2 py-3 font-bold flex ">
         <div className="mr-auto flex items-center text-red-600">{isActive}</div>
         <div className="flex gap-4">
-          <Navlink name="About" route="/" isActive={isActive} />
-          <Navlink name="Resume" route="/resume" isActive={isActive} />
-          <Navlink name="Projects" route="/projects" isActive={isActive} />
+          <Navlink
+            name="About"
+            route="/"
+            isActive={isActive}
+            setIsActive={setIsActive}
+          />
+          <Navlink
+            name="Resume"
+            route="/resume"
+            isActive={isActive}
+            setIsActive={setIsActive}
+          />
+          <Navlink
+            name="Projects"
+            route="/projects"
+            isActive={isActive}
+            setIsActive={setIsActive}
+          />
         </div>
       </div>
     </div>

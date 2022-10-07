@@ -23,7 +23,7 @@ const index = () => {
         adipisicing elit. A, accusamus.
       </h5>
       <div
-        className="bg-gray-400 dark:bg-dark-200 flex-grow-[2] px-4 overflow-auto pb-4"
+        className="bg-gray-400 dark:bg-dark-200 flex-grow-[2] px-4 overflow-auto pb-4 my-5 lg:my-0"
         style={{ marginRight: "-1.5rem", marginLeft: "-1.5rem" }}
       >
         <h6 className="my-3 text-xl tracking-wider font-bold ">What I Offer</h6>

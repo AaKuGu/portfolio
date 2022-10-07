@@ -112,7 +112,7 @@ const Sidebar = () => {
             </a>
           </Link>
         </div>
-        <div className="social_icons flex justify-center mt-4 text-4xl text-green gap-20 lg:gap-12">
+        <div className="social_icons flex justify-center mt-4 text-4xl text-green gap-10 md:gap-20 lg:gap-12">
           <Link href="/https://youtube.com/">
             <a>
               <AiFillYoutube />

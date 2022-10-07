@@ -20,7 +20,7 @@ const Bar: FunctionComponent<{
       },
     };
   return (
-    <div className="my-2 bg-gray-300 dark:bg-dark-200 rounded-full text-white">
+    <div className="my-2 bg-gray-300 dark:bg-dark-200 rounded-full text-black font-bold tracking-wider">
       <motion.div
         className="px-4 py-1 flex items-center rounded-full bg-gradient-to-r from-green to-blue-600"
         style={{ width: level }}
