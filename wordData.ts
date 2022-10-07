@@ -1,0 +1,1 @@
+export const names = ['robert','shivam','rathod','vikram','rich','poor','rich','vaibhav','paisa','money','online','brave','browser','uphold','bitcoin','batcoin','hell[']
