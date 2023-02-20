@@ -1,68 +1,3 @@
-// import React from "react";
-// import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
-// import { GoLocation } from "react-icons/go";
-// import { GiTie } from "react-icons/gi";
-// const Sidebar = () => {
-//   return (
-//     <div>
-//       <img
-//         src="https://cdn.pixabay.com/photo/2018/09/12/12/14/man-3672010_960_720.jpg"
-//         alt="user avatar"
-//         className="w-28 h-28 mx-auto rounded-full"
-//       />
-//       <h3 className="my-5 text-4xl tracking-wider font-kaushan">
-//         <span className="text-green">Aadarsh </span> Gupta
-//       </h3>
-//       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">Web Developer</p>
-//       <a
-//         className="px-5 py-1 my-3 bg-gray-200 rounded-full flex justify-center items-center"
-//         href=""
-//         download="name"
-//       >
-//         <GiTie className="w-6 h-6" /> Download Resume
-//       </a>
-
-//       {/* Social Icons */}
-//       <div className=" flex justify-around my-5 text-green-500 w-9/12 md:w-full mx-auto">
-//         <a href="">
-//           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
-//         </a>
-//         <a href="">
-//           <AiFillGithub className="w-8 h-8 cursor-pointer" />
-//         </a>
-//         <a href="">
-//           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
-//         </a>
-//       </div>
-
-//       {/* Address */}
-//       <div
-//         className="py-4 my-5 bg-gray-200"
-//         style={{ marginRight: "-1rem", marginLeft: "-1rem" }}
-//       >
-//         <div className="flex items-center justify-center gap-2">
-//           <GoLocation />
-//           <span>Mirzapur, India</span>
-//         </div>
-//         <p className="my-2">prathamtogupta11@gmail.com</p>
-//         <p className="my-2">20830928293/2934284083</p>
-//       </div>
-
-//       {/* Email Button */}
-//       <button className="mt-5 text-white bg-gradient-to-r from-blue-700 font-bold tracking-wider to-green-700 w-[70%] py-3 rounded-3xl md:py-2" onClick={() => window.open('mailto:prathamtogupta11@gmail.com') }>
-//         Email Me
-//       </button>
-//       <button className="mt-5 text-white bg-gradient-to-r from-blue-700 font-bold tracking-wider to-green-700 w-[70%] py-3 rounded-3xl md:py-2">
-//         Toggle Theme
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default Sidebar;
-
-// style the profile name
-
 import React from "react";
 import Link from "../node_modules/next/link";
 import { AiFillYoutube, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
@@ -118,7 +53,7 @@ const Sidebar = () => {
               <AiFillYoutube />
             </a>
           </Link>
-          <Link href="/https://youtube.com/">
+          <Link href="https://github.com/AaKuGu">
             <a>
               <AiFillGithub />
             </a>
