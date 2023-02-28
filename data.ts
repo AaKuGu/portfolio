@@ -4,7 +4,7 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 // import { IProject, Service, Skill } from "./types";
 import { BsCircleFill } from "react-icons/bs";
-import { IProject, IServices, ISkill } from "./type";  
+import { IProject, IServices, ISkill } from "./type";
 // import { IService } from "./type.ts";
 
 // import { IService } from "./type";
@@ -106,13 +106,13 @@ export const projects: IProject[] = [
     image_path: "/images/covid.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com/",
-    category: ["mongo"],
-    key_techs: ["React","node"]
+    category: ["fullStack"],
+    key_techs: ["React", "Express", "Mongodb", "Tailwind Css"],
   },
   {
     id: 2,
     name: "Musa Tracker",
-    description: "This is blah blah blah", 
+    description: "This is blah blah blah",
     image_path: "/images/covid.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com/",
@@ -210,4 +210,3 @@ export const projects: IProject[] = [
     key_techs: ["React", "Char.js", "Material UI"],
   },
 ];
-
