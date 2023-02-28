@@ -107,12 +107,12 @@ export const projects: IProject[] = [
     deployed_url: "https://google.com",
     github_url: "https://google.com/",
     category: ["mongo"],
-    key_techs: ["React","node"],
+    key_techs: ["React","node"]
   },
   {
     id: 2,
     name: "Musa Tracker",
-    description: "This is blah blah blah",
+    description: "This is blah blah blah", 
     image_path: "/images/covid.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com/",
