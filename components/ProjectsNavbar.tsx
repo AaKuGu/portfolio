@@ -23,7 +23,7 @@ const ProjectsNavbar: FunctionComponent<{
 }> = (props) => {
   return (
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
-      <NavItem value="fullStack" {...props} />
+      <NavItem value="fullStack" {...props} /> 
       <NavItem value="react" {...props} />
       <NavItem value="mongo" {...props} />
       <NavItem value="django" {...props} />
