@@ -106,8 +106,8 @@ export const projects: IProject[] = [
     image_path: "/images/covid.png",
     deployed_url: "https://google.com",
     github_url: "https://google.com/",
-    category: ["fullStack"],
-    key_techs: ["React Js", "Express Js", "Mongo DB","Tailwind css"],
+    category: ["mongo"],
+    key_techs: ["React","node"],
   },
   {
     id: 2,
