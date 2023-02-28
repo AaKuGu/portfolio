@@ -108,7 +108,7 @@ export const projects: IProject[] = [
     deployed_url: "https://nodemailer-react.vercel.app/",
     github_url: "https://github.com/AaKuGu/nodemailer-react",
     category: ["fullStack", "react"],
-    key_techs: ["React", "Express", "Tailwind Css", "Nodemailer"],
+    key_techs: ["React", "Express", "TailwindCss", "Nodemailer"],
   },
   {
     id: 2,
@@ -119,7 +119,7 @@ export const projects: IProject[] = [
     deployed_url: "https://portfolio-omega-nine-82.vercel.app/",
     github_url: "https://github.com/AaKuGu/portfolio/",
     category: ["fullStack", "next-Js"],
-    key_techs: ["Next Js", "Tailwind Css", "Framer-Motion", "TypeScript"],
+    key_techs: ["NextJs", "TailwindCss", "Framer-Motion", "TypeScript"],
   },
   {
     id: 3,
@@ -130,7 +130,7 @@ export const projects: IProject[] = [
     deployed_url: "https://todo-list-client-k9dv.vercel.app/",
     github_url: "https://github.com/AaKuGu/todoListClient",
     category: ["fullStack", "next-Js"],
-    key_techs: ["Next", "Express", "Tailwind Css", "MongoDB", "React-Redux"],
+    key_techs: ["Next", "Express", "TailwindCss", "MongoDB", "React-Redux"],
   },
   {
     id: 4,
@@ -141,6 +141,6 @@ export const projects: IProject[] = [
     deployed_url: "https://pizzajoint-eight.vercel.app/",
     github_url: "https://github.com/AaKuGu/pizzajoint",
     category: ["fullStack", "react"],
-    key_techs: ["React", "Tailwind Css", "Framer Motion"],
+    key_techs: ["React", "TailwindCss", "Framer Motion"],
   },
 ];
