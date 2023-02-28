@@ -4,7 +4,7 @@ import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 // import { IProject, Service, Skill } from "./types";
 import { BsCircleFill } from "react-icons/bs";
-import { IProject, IServices, ISkill } from "./type";
+import { IProject, IServices, ISkill } from "./type";  
 // import { IService } from "./type.ts";
 
 // import { IService } from "./type";
