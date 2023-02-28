@@ -2,14 +2,6 @@
 
 import { IconType } from "./node_modules/react-icons/lib/esm/iconBase";
 
-// import { IconType } from "react-icons";
-
-// export interface IServices {
-//   title: string;
-//   about: string;
-//   Icon: IconType;
-// }
-
 export interface IServices {
   title: string;
   about: string;
@@ -33,4 +25,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo"
+export type Category = "full_stack" | "node" | "express" | "django" | "mongo"
