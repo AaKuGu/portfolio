@@ -26,9 +26,8 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="all" {...props} />
       <NavItem value="fullStack" {...props} />
       <NavItem value="react" {...props} />
-      <NavItem value="mongo" {...props} />
-      <NavItem value="django" {...props} />
-      <NavItem value="node" {...props} />
+      <NavItem value="react-Native" {...props} />
+      <NavItem value="next-Js" {...props} />
     </div>
   );
 };
