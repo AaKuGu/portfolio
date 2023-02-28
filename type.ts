@@ -25,4 +25,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "full_stack" | "node" | "express" | "django" | "mongo"
+export type Category = "fullStack" | "node" | "express" | "django" | "mongo"
