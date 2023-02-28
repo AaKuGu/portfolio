@@ -2,7 +2,7 @@ import React, { FunctionComponent } from "react";
 import { Category } from "../type";
 
 const NavItem: FunctionComponent<{
-  value: Category | "full_stack";
+  value: Category | "fullStack";
   handlerFilterCategory: Function;
   active: string;
 }> = ({ value, handlerFilterCategory, active }) => {
