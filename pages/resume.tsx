@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import Bar from "../components/Bar";
 import { languages, tools } from "../data";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import { fadeInUp, routerAnimation } from "../animations";
 
 const resume = () => {
-
   return (
     <motion.div
       className="px-6 py-2"
@@ -35,9 +34,11 @@ const resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
-            <h5 className="my-3 text-xl font-bold">Software Engineer Jr.</h5>
-            <p className="font-semibold">TCS (2021- on )</p>
-            <p className="my-3">I don't know why i am doing this job</p>
+            <h5 className="my-3 text-xl font-bold">Full Stack Developer </h5>
+            <p className="font-semibold">12-08-2022 on words</p>
+            <p className="my-3">
+              Made several Projects on Full Stack (MERN) projects
+            </p>
           </div>
         </motion.div>
       </div>

@@ -48,7 +48,7 @@ const Projects = () => {
       >
         {projects.map((project) => (
           <motion.div
-            className="col-span-12 p-2 sm:col-span-6 lg:col-span-4 bg-gray-200 dark:bg-dark-200 rounded-lg "
+            className="col-span-12 p-2 sm:col-span-6 lg:col-span-6 bg-sky-400 dark:bg-dark-200 rounded-lg text-black font-bold"
             variants={fadeInUp}
           >
             <ProjectCard

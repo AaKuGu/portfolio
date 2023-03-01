@@ -25,9 +25,10 @@ const ProjectCard: FunctionComponent<{
   showDetails,
   setShowDetails,
 }) => {
+  console.log("id/2 === 0", id % 2);
   return (
     <>
-      <motion.div className="w-full ">
+      <motion.div className="w-full relative">
         <Image
           src={image_path}
           alt={name}
@@ -42,7 +43,11 @@ const ProjectCard: FunctionComponent<{
         <p className="my-2 text-center">{name}</p>
         {/* =========================================== big_box ========================================== */}
         {showDetails === id && (
-          <div className="big_box h-fit w-full absolute top-0 left-0 bg-gray-900 text-white rounded-lg z-10 lg:flex lg:py-5 py-0 items-center justify-center">
+          <div
+            className={`big_box h-fit sm:w-[206.8%] absolute top-0 ${
+              id % 2 === 0 ? "left-[-106.8%]" : "left-0"
+            } bg-gray-800 text-white rounded-lg z-10 lg:flex lg:py-5 py-0 items-center justify-center w-full `}
+          >
             <div className="big_box_top l_big_box_left p-2 lg:px-2 lg:w-[50%]">
               <motion.div
                 className="big_box_top_image l_big_box_left_image border-2 border-white rounded-lg"
@@ -53,8 +58,8 @@ const ProjectCard: FunctionComponent<{
                 <Image
                   src={image_path}
                   alt="pic"
-                  width={300}
-                  height={150}
+                  width={150}
+                  height={75}
                   layout="responsive"
                   className="rounded-lg"
                 />
@@ -88,7 +93,7 @@ const ProjectCard: FunctionComponent<{
               </motion.div>
             </div>
 
-            <div className="big_box_down  l_big_box_right mt-5 flex-col items-center justify-center lg:ml-5 px-2 py-2">
+            <div className="big_box_down  l_big_box_right mt-5 flex-col items-center justify-center lg:ml-5 px-2 py-2 w-full">
               <motion.span
                 className="flex justify-center md:text-3xl text-xl font-rubik tracking-wider lg:justify-start "
                 variants={fadeInUp}
@@ -106,10 +111,10 @@ const ProjectCard: FunctionComponent<{
                 {description}
               </motion.span>
 
-              <div className="flex justify-center font-bold gap-3 mt-10 lg:mt-16 text-[10px] md:text-lg mb-5 lg:text-[15px] ">
+              <div className="flex justify-center font-bold gap-3 mt-10 lg:mt-16 text-[10px] md:text-lg mb-5 lg:text-[15px] sm:flex-nowrap flex-wrap">
                 {key_techs.map((techs) => (
                   <motion.div
-                    className="flex bg-gray-600 px-3 rounded-md py-1 lg:px-2 lg:py-1 text-center h-fit"
+                    className="flex bg-gray-600  px-3 rounded-md py-1 lg:px-2 lg:py-1 text-center h-fit"
                     variants={fadeInDown}
                     initial="initial"
                     animate="animate"

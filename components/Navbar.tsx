@@ -98,7 +98,7 @@ const Navbar = () => {
 
   return (
     <div className="main ">
-      <div className="text-green sm:text-xl text-md md:text-2xl px-2 py-3 font-bold flex ">
+      <div className="text-green sm:text-xl text-md md:text-2xl md:px-6 px-3 py-3 font-bold flex ">
         <div className="mr-auto flex items-center text-red-600">{isActive}</div>
         <div className="flex gap-4">
           <Navlink
