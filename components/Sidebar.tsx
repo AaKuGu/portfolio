@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "../node_modules/next/link";
 import { AiFillYoutube, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { GrLocation } from "react-icons/gr";
@@ -12,6 +12,10 @@ const Sidebar = () => {
     e.preventDefault();
     setTheme(theme === "light" ? "dark" : "light");
   };
+
+  useEffect(() => {
+    setTheme("dark");
+  }, []);
 
   return (
     <div className="h-[590px]">
@@ -67,7 +71,7 @@ const Sidebar = () => {
         <div className="address flex flex-col gap-2 bg-gray-200 dark:bg-dark-200  my-4 py-4 tracking-wider">
           <span className="flex justify-center items-center gap-3">
             <GrLocation />
-            Mirzapur, India
+            Uttar Pradesh, India
           </span>
           <span className="flex justify-center items-center gap-3">
             reviewerhiphanviral@gmail.com
@@ -87,7 +91,7 @@ const Sidebar = () => {
               className="border rounded-full py-2 w-[200px] bg-gradient-to-r from-blue-600 to-green-600 "
               onClick={changeTheme}
             >
-              Toggle Theme
+              {theme === "dark" ? "Light Theme" : "Dark Theme"}
             </a>
           </Link>
         </div>

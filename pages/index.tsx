@@ -9,7 +9,7 @@ const index = () => {
 
   return (
     <motion.div
-      className="flex flex-col px-6 pt-1 flex-grow h-[540px] gap-3"
+      className="flex flex-col px-6 pt-1 flex-grow py-10 h-full gap-3"
       variants={routerAnimation}
       initial="initial"
       animate="animate"
@@ -39,7 +39,7 @@ const index = () => {
           {services.map((services) => (
             <motion.div
               variants={fadeInUp}
-              className="bg-gray-200 dark:bg-dark-200 rounded-lg lg:col-span-1 flex items-center justify-center"
+              className="bg-gray-200 dark:bg-dark-200 rounded-lg lg:col-span-1 flex items-center justify-center h-full"
             >
               <ServiceCard services={services} />
             </motion.div>
