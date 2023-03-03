@@ -3,30 +3,29 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
 import { projects as projectData } from "../data";
 import { Category } from "../type";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import { fadeInUp, routerAnimation, stagger } from "../animations";
 
 const Projects = () => {
+  const [projects, setProjects] = useState(projectData);
+  const [active, setActive] = useState("all");
 
-    const [projects, setProjects] = useState(projectData)
-    const [active, setActive] = useState("all")
+  const [showDetails, setShowDetails] = useState<number | null>(null);
 
-  const [showDetails, setShowDetails] = useState<number|null>(null);
-
-
-    const handlerFilterCategory = (category:Category | 'all') => {
-        console.log("clicked!");
-          setActive(category);
-        if(category === "all"){
-          setProjects(projectData)
-          return;
-        }
-
-        const newArray = projectData.filter((project) => project.category.includes(category));
-        setProjects(newArray);
-        setActive(category);
-
+  const handlerFilterCategory = (category: Category | "all") => {
+    console.log("clicked!");
+    setActive(category);
+    if (category === "all") {
+      setProjects(projectData);
+      return;
     }
+
+    const newArray = projectData.filter((project) =>
+      project.category.includes(category)
+    );
+    setProjects(newArray);
+    setActive(category);
+  };
 
   return (
     <motion.div
@@ -48,7 +47,7 @@ const Projects = () => {
       >
         {projects.map((project) => (
           <motion.div
-            className="col-span-12 p-2 sm:col-span-6 lg:col-span-6 bg-sky-400 dark:bg-dark-200 rounded-lg text-black font-bold"
+            className="col-span-12 p-2 sm:col-span-6  bg-sky-400 dark:bg-dark-200 rounded-lg text-black font-bold"
             variants={fadeInUp}
           >
             <ProjectCard

@@ -6,7 +6,7 @@ const NavItem: FunctionComponent<{
   handlerFilterCategory: Function;
   active: string;
 }> = ({ value, handlerFilterCategory, active }) => {
-  let class_name = "capitalize cursor-pointer hover:text-green";
+  let class_name = "capitalize cursor-pointer hover:text-green ";
   if (active === value) class_name += " text-green";
   console.log(class_name);
 
@@ -22,7 +22,7 @@ const ProjectsNavbar: FunctionComponent<{
   active: string;
 }> = (props) => {
   return (
-    <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
+    <div className="flex px-3 py-2 gap-3 overflow-x-auto list-none flex-wrap text-[13px] md:text-[17px] lg:text-[18px] md:gap-5 font-bold justify-center md:justify-start">
       <NavItem value="all" {...props} />
       <NavItem value="fullStack" {...props} />
       <NavItem value="react" {...props} />

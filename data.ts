@@ -99,25 +99,25 @@ export const projects: IProject[] = [
   },
   {
     id: 2,
+    name: "Pizza Joint",
+    description:
+      "this project is mainly focused on Framer-Motion library ( A library which creates beautiful animations for our application ). Just the react js was enough to create such thing.",
+    image_path: "/images/PIzzaJoin rectangle.png",
+    deployed_url: "https://pizzajoint-eight.vercel.app/",
+    github_url: "https://github.com/AaKuGu/pizzajoint",
+    category: ["react"],
+    key_techs: ["React", "TailwindCss", "Framer Motion"],
+  },
+  {
+    id: 3,
     name: "Email Sender App",
     description:
       "Using this app you will be able to send or receive email messages , more features like sending emails to more numbers of peoples in one click is coming soon.",
-    image_path: "/images/nodeMailerThumbnail.png",
+    image_path: "/images/nodemailer rectangle.png",
     deployed_url: "https://nodemailer-react.vercel.app/",
     github_url: "https://github.com/AaKuGu/nodemailer-react",
     category: ["react", "fullStack"],
     key_techs: ["React", "Express", "TailwindCss", "Nodemailer"],
-  },
-  {
-    id: 3,
-    name: "Portfolio",
-    description:
-      "This is my portfolio project, which is the same website , where you are right now.",
-    image_path: "/images/portfolio.png",
-    deployed_url: "https://portfolio-omega-nine-82.vercel.app/",
-    github_url: "https://github.com/AaKuGu/portfolio/",
-    category: ["next-Js"],
-    key_techs: ["NextJs", "TailwindCss", "Framer-Motion", "TypeScript"],
   },
   {
     id: 4,
@@ -132,13 +132,13 @@ export const projects: IProject[] = [
   },
   {
     id: 5,
-    name: "Pizza Joint",
+    name: "Portfolio",
     description:
-      "this project is mainly focused on Framer-Motion library ( A library which creates beautiful animations for our application ). Just the react js was enough to create such thing.",
-    image_path: "/images/PizzaJoint.png",
-    deployed_url: "https://pizzajoint-eight.vercel.app/",
-    github_url: "https://github.com/AaKuGu/pizzajoint",
-    category: ["react"],
-    key_techs: ["React", "TailwindCss", "Framer Motion"],
+      "This is my portfolio project, which is the same website , where you are right now.",
+    image_path: "/images/portfolio.png",
+    deployed_url: "https://portfolio-omega-nine-82.vercel.app/",
+    github_url: "https://github.com/AaKuGu/portfolio/",
+    category: ["next-Js"],
+    key_techs: ["NextJs", "TailwindCss", "Framer-Motion", "TypeScript"],
   },
 ];
