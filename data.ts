@@ -132,7 +132,7 @@ export const projects: IProject[] = [
   },
   {
     id: 5,
-    name: "Portfolio",
+    name: "Portfolio",    
     description:
       "This is my portfolio project, which is the same website , where you are right now.",
     image_path: "/images/portfolio.png",
