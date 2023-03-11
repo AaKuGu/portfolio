@@ -23,7 +23,7 @@ const Sidebar = () => {
         <div className="img flex justify-center">
           <Image
             className="items-center rounded-full w-[120px] h-[120px]"
-            src="/images/Adarsh.jpg"
+            src="/images/Aadarsh.jpg"
             alt="Profile Pic"
             width={120}
             height={120}
