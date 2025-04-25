@@ -16,14 +16,14 @@ const index = () => {
       exit="exit"
     >
       <h5 className="pt-4 font-medium flex-grow">
-        I am currently pursuing 'B.Tech (Hons)' in the field of Computer Science
-        Engineering and currently a third-year undergraduate student who is
-        passionate about technology and aims to serve people the best through my
-        skillset. I am very much interested in Freelancing which can give me
-        'Time' & 'Location' freedom so that I can work from anywhere in the
-        world and any time required. I have made many projects which you can see
-        in the 'Projects' section and keep on improving them further, along with
-        that new projects on real-life problems are also coming soon.
+        Self-driven and passionate Full Stack Developer with hands-on experience
+        in the MERN stack and Next.js. Recently completed a B.Tech (Hons.) in
+        Computer Science and Engineering (2020–2024). Proficient in developing
+        modern web applications with strong skills in state management using
+        Redux and Zustand. Built a Course Launcher App and currently developing
+        a Website Builder App featuring drag-and-drop design, email automation,
+        and template customization. Eager to contribute to innovative frontend
+        and full-stack projects that make a real impact.
       </h5>
       <div
         className="bg-gray-400 dark:bg-dark-200 flex-grow-[2] px-4 overflow-auto pb-4 my-5 lg:my-0"

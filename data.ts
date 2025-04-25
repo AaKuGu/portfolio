@@ -14,23 +14,25 @@ export const services: IServices[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b>React.js</b> and <b>Next.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b>React.js</b>,<b>Tailwind Css</b>, <b>Redux</b>,<b>Zustand</b> and <b>Next.js</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
-    about: "handle database (MongoDB), server, api using <b>Express </b> ",
+    about:
+      "handle database (MongoDB), server, api using <b>Express </b>, <b>Server Actions ( Next js )</b> ",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
-    about: "I can develop robust  REST API using <b>Node API</b> ",
+    about:
+      "I can develop robust and scalable <b>RESTful APIs</b> using <b>Node.js</b> and <b>Express.js</b>, following best practices in routing, error handling, and middleware usage.",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    title: "Third Party Api Integration",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer-Motion</b> ",
+      "I can integrate thinrd party api services like <b>Paypal, Stripe, Razorpay, Cashfree, Get Respnose, Mail Chimp etc)</b>",
   },
 ];
 
@@ -132,7 +134,7 @@ export const projects: IProject[] = [
   },
   {
     id: 5,
-    name: "Portfolio",    
+    name: "Portfolio",
     description:
       "This is my portfolio project, which is the same website , where you are right now.",
     image_path: "/images/portfolio.png",

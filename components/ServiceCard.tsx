@@ -9,11 +9,11 @@ const ServiceCard: FunctionComponent<{ services: IServices }> = ({
 
 
   return (
-    <div className="flex items-center p-2 space-x-5  jusitfy-center">
-      <Icon className="w-12 h-12 text-green"/>
-      <div>
-        <h4 className="font-bold text-md mb-3">{title} </h4> 
-        <p dangerouslySetInnerHTML={{__html : about}}/>
+    <div className="flex items-start p-2 space-x-5  jusitfy-center border-gray-500 ">
+      <Icon className="max-w-12 max-h-12 min-w-[20px] min-h-[20px] text-green "/>
+      <div className={`${''}  flex flex-col gap-1 `}>
+        <h4 className="font-bold text-md ">{title} </h4> 
+        <p dangerouslySetInnerHTML={{__html : about}} className={`${''} text-gray-500`}/>
       </div>
     </div>
   );
