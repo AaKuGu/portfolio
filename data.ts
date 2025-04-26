@@ -38,28 +38,28 @@ export const services: IServices[] = [
 
 export const languages: ISkill[] = [
   {
-    name: "Python",
-    level: "60%",
+    name: "Express Js",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
-    name: "Javascript",
-    level: "90%",
+    name: "React Js",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
-    name: "Java",
-    level: "60%",
+    name: "Next js",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
-    name: "ReactJS",
-    level: "100%",
+    name: "Mongo DB",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
-    name: "NextJS",
-    level: "70%",
+    name: "Tailwind Css, Git & Github, ",
+    level: "80%",
     Icon: BsCircleFill,
   },
 ];

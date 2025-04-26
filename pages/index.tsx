@@ -17,13 +17,37 @@ const index = () => {
     >
       <h5 className="pt-4 font-medium flex-grow">
         Self-driven and passionate Full Stack Developer with hands-on experience
-        in the MERN stack and Next.js. Recently completed a B.Tech (Hons.) in
-        Computer Science and Engineering (2020–2024). Proficient in developing
-        modern web applications with strong skills in state management using
-        Redux and Zustand. Built a Course Launcher App and currently developing
-        a Website Builder App featuring drag-and-drop design, email automation,
-        and template customization. Eager to contribute to innovative frontend
-        and full-stack projects that make a real impact.
+        in the <b className={`${""} text-green-500`}>MERN stack and Next.js</b>.
+        Recently completed a B.Tech (Hons.) in Computer Science and Engineering
+        (2020–2024). Proficient in developing modern web applications with
+        strong skills in state management using{" "}
+        <b className={`${""} text-green-500`}>Redux and Zustand</b> . I Have
+        Built a{" "}
+        <span className={`${""} text-red-500 italic text-bold font-bold`}>
+          Course Launcher App
+        </span>{" "}
+        and currently developing{" "}
+        <span className={`${""} text-red-500 italic font-bold`}>
+          Website Builder App
+        </span>{" "}
+        featuring{" "}
+        <span className={`${""} text-red-500 italic font-bold`}>
+          drag-and-drop
+        </span>{" "}
+        design,{" "}
+        <span className={`${""} text-red-500 italic font-bold`}>
+          email automation
+        </span>{" "}
+        ,{" "}
+        <span className={`${""} text-red-500 italic font-bold`}>
+          payment gateway integration
+        </span>{" "}
+        and{" "}
+        <span className={`${""} text-red-500 italic font-bold`}>
+          template customization
+        </span>{" "}
+        . Eager to contribute to innovative frontend and full-stack projects
+        that make a real impact.
       </h5>
       <div
         className="bg-gray-400 dark:bg-dark-200 flex-grow-[2] px-4 overflow-auto pb-4 my-5 lg:my-0"

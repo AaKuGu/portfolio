@@ -65,7 +65,7 @@ const Sidebar = () => {
 
         <div className="address flex flex-col gap-2 bg-gray-200 dark:bg-dark-200 my-2 py-2 px-2 border-[2px] border-white border-dashed tracking-wider text-sm items-start overflow-y-auto">
           <span className="flex justify-center items-center gap-3 ">
-            <MdLocationPin  />
+            <MdLocationPin />
             Uttar Pradesh, India
           </span>
           <span className="flex justify-center items-center gap-3">

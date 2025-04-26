@@ -26,8 +26,8 @@ const resume = () => {
             </h5>
             <p className="font-semibold">Lovely Professional University</p>
             <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Lovely Professional University
+              I am completed B.Tech (Hons) in Computer Science Engineering from
+              Lovely Professional University
             </p>
           </div>
         </motion.div>
@@ -35,9 +35,9 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-3 text-xl font-bold">Full Stack Developer </h5>
-            <p className="font-semibold">12-08-2022 on words</p>
+            <p className="font-semibold">12-08-2022 onwards</p>
             <p className="my-3">
-              Made several Projects on Full Stack (MERN) projects
+              Made several Projects on Full Stack (MERN) with Next Js projects
             </p>
           </div>
         </motion.div>
